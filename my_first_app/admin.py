@@ -2,8 +2,8 @@
 
 
 from django.contrib import admin
-from .models.book import Task, SubTask, Category
-from first_app.models import Book
+from .models.book import Task, SubTask, Category, Book
+#from first_app.models import Book
 admin.site.register(Book)
 
 
